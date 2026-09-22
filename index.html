@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111827" />
+  <meta name="description" content="TDV Soluções em Impressão 3D — atendimento, orçamento e contatos." />
+  <title>TDV Soluções em Impressão 3D</title>
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:#121a2f;
+      --text:#f8fafc;
+      --muted:#a8b3c7;
+      --border:rgba(255,255,255,.10);
+      --accent:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,.08), transparent 34rem),
+        var(--bg);
+      color:var(--text);
+      display:flex;
+      justify-content:center;
+      padding:28px 16px 44px;
+    }
+    main{width:min(100%,520px)}
+    .brand{
+      text-align:center;
+      margin:12px 0 24px;
+    }
+    .logo{
+      width:92px;height:92px;
+      border-radius:24px;
+      display:grid;place-items:center;
+      margin:0 auto 16px;
+      background:#fff;
+      color:#0b1020;
+      font-weight:900;
+      font-size:28px;
+      letter-spacing:-1px;
+      box-shadow:0 14px 45px rgba(0,0,0,.28);
+    }
+    h1{
+      margin:0;
+      font-size:clamp(25px,6vw,34px);
+      line-height:1.05;
+      letter-spacing:-.7px;
+    }
+    .subtitle{
+      color:var(--muted);
+      margin:10px auto 0;
+      line-height:1.5;
+      max-width:420px;
+    }
+    .card{
+      background:rgba(18,26,47,.86);
+      border:1px solid var(--border);
+      border-radius:26px;
+      padding:18px;
+      box-shadow:0 20px 60px rgba(0,0,0,.22);
+      backdrop-filter:blur(12px);
+    }
+    .links{display:grid;gap:12px}
+    a.button{
+      min-height:58px;
+      padding:14px 16px;
+      border-radius:17px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.055);
+      color:var(--text);
+      text-decoration:none;
+      display:flex;
+      align-items:center;
+      gap:13px;
+      font-weight:700;
+      transition:.18s ease;
+    }
+    a.button:hover{
+      transform:translateY(-1px);
+      background:rgba(255,255,255,.09);
+      border-color:rgba(255,255,255,.17);
+    }
+    .icon{
+      flex:0 0 36px;
+      width:36px;height:36px;
+      border-radius:12px;
+      display:grid;place-items:center;
+      background:rgba(255,255,255,.09);
+      font-size:18px;
+    }
+    .button small{
+      display:block;
+      color:var(--muted);
+      font-weight:500;
+      margin-top:3px;
+    }
+    .about{
+      margin-top:14px;
+      padding:18px;
+      border:1px solid var(--border);
+      border-radius:22px;
+      color:var(--muted);
+      line-height:1.6;
+      text-align:center;
+      background:rgba(255,255,255,.025);
+    }
+    .about strong{color:var(--text)}
+    footer{
+      text-align:center;
+      color:#748096;
+      font-size:13px;
+      padding-top:22px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="brand">
+      <div class="logo" aria-label="TDV">TDV</div>
+      <h1>TDV Soluções em Impressão 3D</h1>
+      <p class="subtitle">Transformamos ideias em peças reais com impressão 3D personalizada.</p>
+    </section>
+
+    <section class="card">
+      <div class="links">
+        <a class="button" href="https://wa.me/5571997024520?text=Ol%C3%A1%21%20Conheci%20a%20TDV%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+          <span class="icon">💬</span>
+          <span>WhatsApp — Tonison<small>(71) 99702-4520</small></span>
+        </a>
+
+        <a class="button" href="https://wa.me/5575982846869?text=Ol%C3%A1%21%20Conheci%20a%20TDV%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+          <span class="icon">💬</span>
+          <span>WhatsApp — Davy<small>(75) 98284-6869</small></span>
+        </a>
+
+        <a class="button" href="contato.vcf" download="TDV-Solucoes-3D.vcf">
+          <span class="icon">👤</span>
+          <span>Salvar contato<small>Adicionar a TDV à agenda</small></span>
+        </a>
+
+        <a class="button" href="https://www.instagram.com/tdv.3d/" target="_blank" rel="noopener">
+          <span class="icon">📸</span>
+          <span>Instagram<small>@TDV.3D</small></span>
+        </a>
+
+        <a class="button" href="mailto:tdtv3d@gmail.com?subject=Or%C3%A7amento%20-%20TDV%20Solu%C3%A7%C3%B5es%20em%20Impress%C3%A3o%203D">
+          <span class="icon">✉️</span>
+          <span>E-mail<small>tdtv3d@gmail.com</small></span>
+        </a>
+      </div>
+
+      <div class="about">
+        <strong>Impressão 3D personalizada</strong><br>
+        Personagens • Chaveiros • Decoração • Peças sob medida
+      </div>
+    </section>
+
+    <footer>tdv3d.com.br</footer>
+  </main>
+</body>
+</html>
